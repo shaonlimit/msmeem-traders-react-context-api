@@ -1,0 +1,22 @@
+[
+    {
+        "img": "stone.jpg",
+        "title": "STONE",
+        "idName": "stone-gallery-section"
+    },
+    {
+        "img": "metal-sticker.jpg",
+        "title": "METAL STICKER",
+        "idName": "metal-stickers-section"
+    },
+    {
+        "img": "pearl.jpg",
+        "title": "RIVET PEARL",
+        "idName": "pearl-gallery-section"
+    },
+    {
+        "img": "lather.jpg",
+        "title": "LATHER PATCH",
+        "idName": "lather-gallery-section"
+    }
+]

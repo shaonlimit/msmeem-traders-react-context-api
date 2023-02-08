@@ -1,0 +1,22 @@
+[
+    {
+        "title": "STONE",
+        "description": "Here are some examples of our stone works",
+        "idName": "stone-gallery-section"
+    },
+    {
+        "title": "METAL STICKERS",
+        "description": "Here are some examples of our metal stickers",
+        "idName": "metal-stickers-section"
+    },
+    {
+        "title": "RIVET PEARL",
+        "description": "Here are some examples of our rivet pearl works",
+        "idName": "pearl-gallery-section"
+    },
+    {
+        "title": "LATHER PATCH",
+        "description": "Here are some examples of our lather patch works",
+        "idName": "lather-gallery-section"
+    }
+]

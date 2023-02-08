@@ -1,0 +1,18 @@
+[
+    {
+        "title": "LATHER PATCH",
+        "description": "Here are some examples of our lather patch works",
+        "idName": "lather-gallery-section",
+        "photo": [
+            {
+                "img": "lather01.jpg"
+            },
+            {
+                "img": "lather02.jpg"
+            },
+            {
+                "img": "lather03.jpg"
+            }
+        ]
+    }
+]

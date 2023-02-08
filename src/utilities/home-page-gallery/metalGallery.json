@@ -1,0 +1,27 @@
+[
+    {
+        "title": "METAL STICKERS",
+        "description": "Here are some examples of our metal stickers",
+        "idName": "metal-stickers-section",
+        "photo": [
+            {
+                "img": "metal01.jpg"
+            },
+            {
+                "img": "metal02.jpg"
+            },
+            {
+                "img": "metal03.jpg"
+            },
+            {
+                "img": "metal04.jpg"
+            },
+            {
+                "img": "metal05.jpg"
+            },
+            {
+                "img": "metal06.jpg"
+            }
+        ]
+    }
+]

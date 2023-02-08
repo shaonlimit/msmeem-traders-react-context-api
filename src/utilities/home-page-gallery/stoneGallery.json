@@ -1,0 +1,18 @@
+[
+    {
+        "title": "STONE",
+        "description": "Here are some examples of our stone works",
+        "idName": "stone-gallery-section",
+        "photo": [
+            {
+                "img": "stone01.jpg"
+            },
+            {
+                "img": "stone02.jpg"
+            },
+            {
+                "img": "stone03.jpg"
+            }
+        ]
+    }
+]

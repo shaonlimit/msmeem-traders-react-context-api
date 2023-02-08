@@ -1,0 +1,20 @@
+[
+  {
+    "title": "ADDRESS",
+    "contact1": "Ka-147/5, Aburtek",
+    "contact2": "Khilkhet, Dhaka-1229",
+    "icon": "bx bx-location-plus"
+  },
+  {
+    "title": "MOBILE",
+    "contact1": "+88 01675 550814",
+    "contact2": "+88 01748 529368",
+    "icon": "bx bx-phone-call"
+  },
+  {
+    "title": "E-MAIL",
+    "contact1": "meemtraders2002@gmail.com",
+    "contact2": "khokoniqbal2002@gmail.com",
+    "icon": "bx bx-mail-send"
+  }
+]

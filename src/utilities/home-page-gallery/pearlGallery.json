@@ -1,0 +1,18 @@
+[
+    {
+        "title": "RIVET PEARL",
+        "description": "Here are some examples of our rivet pearl works",
+        "idName": "pearl-gallery-section",
+        "photo": [
+            {
+                "img": "pearl01.jpg"
+            },
+            {
+                "img": "pearl02.jpg"
+            },
+            {
+                "img": "pearl03.jpg"
+            }
+        ]
+    }
+]
