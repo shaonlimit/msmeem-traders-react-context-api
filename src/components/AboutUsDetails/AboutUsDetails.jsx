@@ -1,36 +1,49 @@
 import React from 'react';
 
 const AboutUsDetails = () => {
-    return (
-        <section id="about-us-details" className="bg-light">
-        <div className="container">
-            <div className="row justify-content-center text-center section-heading">
-                <div className="col-md-8">
-                    <h3>About Us</h3>
-                    <div className="hline mt-1 mb-3">
-                        <hr/>
-                    </div>
-                    <p>We are just what we say</p>
-                </div>   
+  return (
+    <section id='about-us-details' className='bg-light'>
+      <div className='container'>
+        <div className='row justify-content-center text-center section-heading'>
+          <div className='col-md-8'>
+            <h3>About Us</h3>
+            <div className='hline mt-1 mb-3'>
+              <hr />
             </div>
+            <p>We are just what we say</p>
+          </div>
         </div>
-        <div className="container" id='about-us'>
-            <div className="row">
-                <div className="col-md-12">
-               
-                    <p className='text-align-justify'>We are approaching you with a view to introducing ourselves as one of the manufacturer and suppliers of wide range of Garment Accessories products, and sincerely hope we can have the chance to co-operate with you on the basis of mutual benefit.
-                        <br />
-                        <br />
-                        Focusing on Quality and service are our developing roots; we are not only concern about prices, but also ensure high quality products and warmhearted services to develop mutual benefit on cooperation with all clients. We assure you come to us once and will never go anywhere else.
-                    </p>
-                
-                </div>
-            </div>
+      </div>
+      <div className='container' id='about-us'>
+        <div className='row'>
+          <div className='col-md-12'>
+            <p className='text-justify'>
+              We are approaching you with a view to introducing ourselves as one
+              of the manufacturer and suppliers of wide range of Garment
+              Accessories products, and sincerely hope we can have the chance to
+              co-operate with you on the basis of mutual benefit.
+              <br /> <br />
+              Focusing on Quality and service are our developing roots; we are
+              not only concern about prices, but also ensure high quality
+              products and warmhearted services to develop mutual benefit on
+              cooperation with all clients. We assure you come to us once and
+              will never go anywhere else.
+              <br />
+              <br />
+              Pleasae contact over phone about our production item as like, hot
+              fix stone metal sticker, Rivet pearl and river stone. Our product
+              any kinds metal test pass also OEKO-TEX standard. We give 10 tune
+              wasg gyarabtee, our hot fix stone and metal sticker, our products
+              capacity bellow mail or contact number. You will get a nice
+              support from us.
+              <br />
+              So we are waiting your highly appreciate nice-co-operation.
+            </p>
+          </div>
         </div>
-
-
+      </div>
     </section>
-    );
+  );
 };
 
 export default AboutUsDetails;
