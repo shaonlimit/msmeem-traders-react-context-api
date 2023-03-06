@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import whiteLogo from '../../images/white-logo.png';
-import '../../stylesheet.css';
+
 
 const Footer = () => {
   return (
@@ -17,11 +17,11 @@ const Footer = () => {
                 </div>
                 <div className='social-icon d-flex mt-4'>
                   <div className='facebook-icon footer-icon'>
-                    <Link
+                    <a
                       href='https://www.facebook.com/msmeemtraders/'
                       target='”_blank”'>
                       <i className='bx bxl-facebook'></i>
-                    </Link>
+                    </a>
                   </div>
                   <div className='twitter-icon footer-icon'>
                     <Link href='#' target='”_blank”'>
@@ -34,11 +34,11 @@ const Footer = () => {
                     </Link>
                   </div>
                   <div className='linkedin-icon footer-icon'>
-                    <Link
+                    <a
                       href='https://www.linkedin.com/in/khokon-iqbal-b72335188'
                       target='”_blank”'>
                       <i className='bx bxl-linkedin'></i>
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
