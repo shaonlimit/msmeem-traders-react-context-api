@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../stylesheet.css';
 import shuffle from '../../utilities/myFunction';
 import GalleryImage from '../GalleryImage/GalleryImage';
@@ -35,7 +36,7 @@ images = images.slice(0,3);
 
             </div>
             <div className="gallery-button mt-4 text-center">
-                <a href="/image-gallery" className="btn btn-brand">SEE OUR ALL WORKS</a>
+                <Link to="/image-gallery" className="btn btn-brand">SEE OUR ALL WORKS</Link>
             </div>
         </div>
     </section>

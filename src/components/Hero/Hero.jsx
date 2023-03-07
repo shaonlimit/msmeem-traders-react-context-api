@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../stylesheet.css';
 
 const Hero = () => {
@@ -16,9 +17,9 @@ const Hero = () => {
               We manufacture all kinds of garments accessories, stone, metal
               stickers and rivet pearl, lather patch, belt etc.
             </p>
-            <a href='/contact' className='btn btn-brand'>
+            <Link to='/contact' className='btn btn-brand'>
               CONTACT
-            </a>
+            </Link>
           </div>
         </div>
       </div>

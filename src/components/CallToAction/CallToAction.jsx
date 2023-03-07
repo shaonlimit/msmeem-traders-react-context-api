@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../stylesheet.css';
 
 const CallToAction = () => {
@@ -10,7 +11,7 @@ const CallToAction = () => {
                     <hr/>
                     <h1 className="text-white">We Will Assist You If You Have Any Queries</h1>
                     <hr/>
-                    <a href="/contact" className="btn btn-brand">Contact</a>
+                    <Link to="/contact" className="btn btn-brand">Contact</Link>
                 </div>
             </div>
         </div>
