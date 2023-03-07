@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import logo from '../../images/main-logo.png';
 import './Menubar.css';
@@ -20,21 +21,21 @@ function Menubar() {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ms-auto'>
-            <Nav.Link className='nav-link' href='/'>
+            <Link className='nav-link' to='/'>
               Home
-            </Nav.Link>
+            </Link>
             <HashLink className='nav-link' to='/#services'>
               Services
             </HashLink>
-            <Nav.Link className='nav-link' href='/about-us'>
+            <Link className='nav-link' to='/about-us'>
               About
-            </Nav.Link>
-            <Nav.Link className='nav-link' href='/contact'>
+            </Link>
+            <Link className='nav-link' to='/contact'>
               Contact
-            </Nav.Link>
-            <Nav.Link className='nav-link' href='/image-gallery'>
+            </Link>
+            <Link className='nav-link' to='/image-gallery'>
               Image Gallery
-            </Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -5,7 +5,7 @@ export default function Profile({profile}) {
 
 
   return (
-    <div className="col-md-3 shadow profile p-4 rounded">
+    <div className="col-md-4 shadow profile p-4 rounded">
       <img src={profile.img} alt="" className="w-50 rounded" />
       <h4 className="mt-4 profile-name">{profile.name}</h4>
       <p>{profile.designation}</p>

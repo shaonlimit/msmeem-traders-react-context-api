@@ -47,19 +47,19 @@ const Footer = () => {
               <h5 className='text-white'>Quick Links</h5>
               <ul className='list-unstyled'>
                 <li>
-                  <a href='/'>Home</a>
+                  <Link to='/'>Home</Link>
                 </li>
                 <li>
                   <HashLink to='/#services'>Services</HashLink>
                 </li>
                 <li>
-                  <a href='/about-us'>About us</a>
+                  <Link to='/about-us'>About us</Link>
                 </li>
                 <li>
-                  <a href='/contact'>Contact</a>
+                  <Link to='/contact'>Contact</Link>
                 </li>
                 <li>
-                  <a href='/image-gallery'>Image Gallery</a>
+                  <Link to='/image-gallery'>Image Gallery</Link>
                 </li>
               </ul>
             </div>

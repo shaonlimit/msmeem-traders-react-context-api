@@ -27,9 +27,9 @@ const Navbar = () => {
         <div className='collapse navbar-collapse' id='navbarNav'>
           <ul className='navbar-nav ms-auto'>
             <li className='nav-item'>
-              <a className='nav-link' aria-current='page' href='/'>
+              <Link className='nav-link' aria-current='page' to='/'>
                 Home
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
               <HashLink className='nav-link' to='/#services'>
@@ -37,19 +37,19 @@ const Navbar = () => {
               </HashLink>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='/about-us'>
+              <Link className='nav-link' to='/about-us'>
                 About
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='/contact'>
+              <Link className='nav-link' href='/contact'>
                 Contact
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='/image-gallery'>
+              <Link className='nav-link' href='/image-gallery'>
                 Image Gallery
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
