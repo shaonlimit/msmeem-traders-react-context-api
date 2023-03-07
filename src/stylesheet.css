@@ -303,3 +303,6 @@ footer {
   transform: translateY(10px);
   border-top: 4px solid var(--blue);
 }
+.about-us-description {
+  text-align: justify;
+}

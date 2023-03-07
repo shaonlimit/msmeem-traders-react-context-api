@@ -40,7 +40,7 @@ const AboutUsDetails = () => {
       <div className='container' id='about-us'>
         <div className='row'>
           <div className='col-md-12'>
-            <p className='text-justify p-3'>
+            <p className='about-us-description p-3'>
               We are approaching you with a view to introducing ourselves as one
               of the manufacturer and suppliers of wide range of Garment
               Accessories products, and sincerely hope we can have the chance to
